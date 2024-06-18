@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/true-luck/static/css/main.02114606.css",
-    "main.js": "/true-luck/static/js/main.7526ebc6.js",
+    "main.js": "/true-luck/static/js/main.913302fd.js",
     "static/js/453.f328e5f5.chunk.js": "/true-luck/static/js/453.f328e5f5.chunk.js",
     "static/media/Landing-sparkle.png": "/true-luck/static/media/Landing-sparkle.426cd191b10f4427d2bb.png",
     "static/media/Expanded-room-bg.png": "/true-luck/static/media/Expanded-room-bg.2f09b1895e20e9493335.png",
@@ -21,11 +21,11 @@
     "static/media/revicons.woff": "/true-luck/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/true-luck/index.html",
     "main.02114606.css.map": "/true-luck/static/css/main.02114606.css.map",
-    "main.7526ebc6.js.map": "/true-luck/static/js/main.7526ebc6.js.map",
+    "main.913302fd.js.map": "/true-luck/static/js/main.913302fd.js.map",
     "453.f328e5f5.chunk.js.map": "/true-luck/static/js/453.f328e5f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02114606.css",
-    "static/js/main.7526ebc6.js"
+    "static/js/main.913302fd.js"
   ]
 }
