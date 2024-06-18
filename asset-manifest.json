@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trueluck-v1/static/css/main.60884816.css",
-    "main.js": "/trueluck-v1/static/js/main.5571f302.js",
+    "main.js": "/trueluck-v1/static/js/main.26defcb2.js",
     "static/js/453.f328e5f5.chunk.js": "/trueluck-v1/static/js/453.f328e5f5.chunk.js",
     "static/media/Landing-sparkle.png": "/trueluck-v1/static/media/Landing-sparkle.426cd191b10f4427d2bb.png",
     "static/media/Expanded-room-bg.png": "/trueluck-v1/static/media/Expanded-room-bg.2f09b1895e20e9493335.png",
@@ -21,11 +21,11 @@
     "static/media/revicons.woff": "/trueluck-v1/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/trueluck-v1/index.html",
     "main.60884816.css.map": "/trueluck-v1/static/css/main.60884816.css.map",
-    "main.5571f302.js.map": "/trueluck-v1/static/js/main.5571f302.js.map",
+    "main.26defcb2.js.map": "/trueluck-v1/static/js/main.26defcb2.js.map",
     "453.f328e5f5.chunk.js.map": "/trueluck-v1/static/js/453.f328e5f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60884816.css",
-    "static/js/main.5571f302.js"
+    "static/js/main.26defcb2.js"
   ]
 }
