@@ -22,7 +22,7 @@ function App() {
       <div className="particles-background">
         <AnimatedParticles />
       </div>
-       <Router basename="/trueluck-v1">
+       <Router basename="/true-luck">
         <Routes>
           <Route path="/" element={<LandingPage/>} />
           <Route path="/Home" element={<Home disclaimerPopup={disclaimerPopup} hideDisclaimer={hideDisclaimer} />} />
