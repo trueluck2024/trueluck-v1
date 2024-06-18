@@ -1,0 +1,105 @@
+.TX-History .Funds-Entered-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.TX-History .Funds {
+    color: #FFD3AE;
+    text-shadow: 0px 2.396px 20.4px #FFD3AE;
+    font-family: "Proto Mono";
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: lowercase;
+
+}
+
+.TX-History .EnteredNumerical {
+    text-shadow: 0px 2.396px 2.396px rgba(0, 0, 0, 0.25);
+    font-family: "Proto Mono";
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: lowercase;
+    background: linear-gradient(154deg, #0DDB15 44.49%, #FEBB3B 128.46%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.TX-History .tx-history-transaction-headings {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #434343;
+    color: #FFF;
+    font-family: "Proto Mono";
+    font-size: 20px;
+}
+
+.TX-History .tx-history-transaction-hash {
+    width: 400px;
+    text-align: center;
+}
+
+.TX-History .value {
+    width: 200px;
+    text-align: center;
+
+}
+
+
+.TX-History .from {
+    width: 200px;
+    text-align: center;
+
+}
+
+
+.TX-History .age {
+    width: 200px;
+    text-align: center;
+}
+
+
+.TX-History .view {
+    width: 100px;
+    text-align: center;
+}
+
+@media (max-width:700px){
+    .TX-History .Funds-Entered-Container {
+        margin:20px 0px;
+    }
+
+    .TX-History .Funds {
+        font-size: 25px;
+    
+    }
+    
+    .TX-History .EnteredNumerical {
+        font-size: 25px;
+    }
+    .TX-History .tx-history-transaction-headings {
+        font-size: 18px;
+    }
+
+    .TX-History .transactions-container{
+        overflow: scroll;
+    }
+
+    .TX-History .tx-history-transaction-headings {
+        width: 1000px;
+    }
+
+}
+
+@media (max-width:999px){
+    .TX-History .transactions-container{
+        overflow: scroll;
+    }
+    .TX-History .tx-history-transaction-headings {
+        width: 1000px;
+    }
+}

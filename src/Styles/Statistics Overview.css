@@ -1,0 +1,156 @@
+.statistics-overview{
+    margin-bottom: 20px;
+}
+
+.statistics-overview p{
+    margin: 0;
+    font-family: "Proto Mono";
+    color: WHITE;
+}
+
+.statistics-overview .statistics-overview-text{
+    color: #E34283;
+    text-shadow: 2px 5px 18.4px #C80E9F;
+    font-family: "Proto Mono";
+    font-size: 25px;
+    font-style: normal; 
+    margin-left: 30px;
+    margin-top: 25px;
+    cursor: default;
+}
+
+.statistics-overview .statistics-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.statistics-overview .statistics-amount,.statistics-transactions,.statistics-addresses{
+    width: 349px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px; 
+    border-style: solid; 
+    border-image-source: linear-gradient(to right, #FEBB3B, #8A00BE); 
+    border-image-slice: 1; 
+}
+
+.statistics-overview .text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.statistics-overview .stat-uppertext{
+    font-family: "Proto Mono";
+    font-size: 15px;
+    font-weight: bolder;
+    background: linear-gradient(124deg, #FEBB3B 4.33%, #8A00BE 157.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+
+.statistics-overview .stat-Lowertext{
+    color: #FFF;
+    font-family: "Proto Mono";
+    font-size: 27px;
+    cursor: default;
+}
+.statistics-overview .recent-transactions{
+    margin: 20px 15px 0px 15px;
+}
+
+.statistics-overview .transaction-headings{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: white solid 1px;
+    padding-bottom: 5px;
+}
+
+.statistics-overview .users{
+    width:200px;
+    text-align: center;
+}
+.statistics-overview .transaction-hash{
+    width:400px;
+    text-align: center;
+}
+
+.statistics-overview .value{
+    width:300px;
+    text-align: center;
+}
+
+.statistics-overview .value{
+    width:200px;
+    text-align: center;
+}
+
+.statistics-overview .from {
+    width:200px;
+    text-align: center;
+}
+
+.statistics-overview .age {
+    width:200px;
+    text-align: center;
+}
+
+.statistics-overview .view {
+    width:100px;
+    text-align: center;
+}
+.statistics-overview .pagination {
+    position: relative;
+    color: white;
+    font-family: "Proto Mono";
+    cursor: default;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.statistics-overview .pagination-dropdown {
+    font-family: "Proto Mono";
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+.statistics-overview .pagination button{
+    all: unset;
+    color: white;
+    font-family: "Proto Mono";
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+@media (max-width:700px){
+    .statistics-overview .statistics-content{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+        margin-top: 15px;
+        align-items: center;
+    }
+
+    .statistics-overview .recent-transactions{
+        overflow: scroll;
+    }
+
+    .statistics-overview .transaction-headings{
+        width: 1200px;
+    }
+}
+
+@media (max-width:1199px){
+.statistics-overview .recent-transactions{
+    overflow: scroll;
+}
+
+.statistics-overview .transaction-headings{
+    width: 1200px;
+}
+}

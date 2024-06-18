@@ -1,0 +1,73 @@
+
+.Profile-Dropdown{
+    height: 35px;
+    width:35px;
+    margin-right: 10px;
+    position:relative; 
+}
+.Profile-Dropdown .profile-icon {
+    width: 35px;
+    cursor: pointer;
+  }
+
+  .Profile-Dropdown .menu-dropdown {
+    right:0px;
+    padding-left: 0px;
+    position: absolute;
+    font-family: "Proto Mono";
+    z-index: 100;
+    color: white;
+    font-size: 17px;
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #535353;
+    border-radius: 15px;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    
+    transform-origin: center top;
+    overflow: hidden;
+    margin-top:20px;
+  }
+  .Profile-Dropdown .menu-dropdown-wrapper{
+    z-index: 1001;   
+    position: absolute;
+    top:30px;
+    right: 0px;
+    width: 200px;
+    height: 50px;
+    transform: scale(0.01);
+    transform-origin: right top;
+    opacity: 0;
+    padding-top:3px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  .Profile-Dropdown:hover .menu-dropdown-wrapper{
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .Profile-Dropdown .menu-dropdown span{
+    transition: all 0.3s ease;
+  }
+  .Profile-Dropdown .menu-dropdown span:hover{
+    padding-left: 15px;
+    color: #E34283;
+  }
+
+
+  .Profile-Dropdown .option{
+    padding: 10px 0px 10px 15px;
+    border-bottom: 2px solid #535353;
+    display: flex;
+    align-items: center;
+  }
+  .Profile-Dropdown .dashboard-svg{
+    padding-left: 10px
+  }
+
+ .Profile-Dropdown .menu-dropdown .option:last-child{
+  border: none;
+  }

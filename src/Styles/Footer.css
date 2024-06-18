@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    border-top: #535353 solid 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  
+
+  .footer .footerlogo {
+    margin: 0;
+    padding-left: 7px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .footer .footerlogo svg{
+    width:200px;
+    height: 100%;
+  }
+  

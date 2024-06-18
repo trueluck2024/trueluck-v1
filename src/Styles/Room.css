@@ -1,0 +1,182 @@
+.room{
+    width: 400px;
+    height: 315px;
+    background-image: url("../Images/Room-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.room .room-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    cursor: default;
+}
+
+.room p{
+    margin: 0;
+    font-family: "Proto Mono";
+    color: WHITE;
+}
+.room .room-price{
+    color: #F4A000;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.room .entree-fee{
+    color: #FFF;
+    text-shadow: 0px 4px 25px #FFF;
+}
+
+.room .text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2px;
+}
+
+.room .first-prize{
+    color: #FFF;
+    text-shadow: 0px 4.5px 4px #DE0DB0;
+    font-size: 28px;
+    /* font-weight: bolder;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000;
+    font-family: "ProtoMono Bold"; */
+}
+
+.room .buying-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.room .counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.room .counter-number{
+    color: white;
+    font-size: 30px;
+}
+
+.room .buy-container{
+    width: 134.989px;
+    height: 47.49px;
+    border-radius: 14.189px;
+    border: 0.645px solid #FFD095;
+    background: linear-gradient(127deg, #FFF 5.23%, #FFF 195.56%);
+    box-shadow: 0px 2.58px 32.248px 0px #F7A64C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.room .buy-text{
+    font-size: 30px;
+    font-weight: bolder;
+    background: linear-gradient(83deg, #E79556 9.44%, #C86379 88.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.room .view-text{
+    color: #FFF;
+    text-shadow: 0px 4.719px 29.495px #FFF;
+    font-family: "Proto Mono";
+    font-size: 25.956px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: lowercase;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.room .ended-room{
+    margin-top: 15px;
+    font-size: 20px;
+
+}
+
+.won-room {
+    font-size: 25px; 
+    display: inline-block;
+  }
+  
+  .dancing-emoji {
+    display: inline-block;
+    font-size: 25px; 
+    transition: transform 0.2s ease-out, color 0.2s ease-out; 
+  }
+  
+  @keyframes danceAnimation {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    25% {
+      transform: translateY(-10px) rotate(5deg);
+    }
+    50% {
+      transform: translateY(0) rotate(0deg);
+    }
+    75% {
+      transform: translateY(-5px) rotate(-5deg);
+    }
+    100% {
+      transform: translateY(0) rotate(0deg);
+    }
+  }
+  
+  .dancing-emoji.dance {
+    animation: danceAnimation 0.5s ease-in-out infinite; 
+    color: #F4A000;;
+  }
+  
+  
+  
+@media (max-width:700px) {
+    .room{
+        width: 350px;
+        height: 275px;
+        background-image: url("../Images/Room-bg-mobile.png");
+    }
+
+    .room .room-contents{
+        gap: 10px;
+    }
+
+    .room .room-price{
+        font-size: 27px;
+        margin-top: 4px;
+        margin-bottom: -5px;
+    }
+
+    .room .first-prize{
+        /* -webkit-text-stroke-width: 1.2px; */
+        font-size: 27px;
+    }
+
+    .room .counter-number{
+        font-size: 27px;
+    }
+}
+
+@media (max-width:412px) {
+    .room{
+        width: 330px;
+        height: 275px;
+        background-image: url("../Images/room-bg-330.png");
+    }
+
+    .room .first-prize{
+        /* -webkit-text-stroke-width: 1px; */
+        font-size: 25px;
+    }
+}

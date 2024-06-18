@@ -1,0 +1,271 @@
+.particles-background canvas{
+    width:100% !important;
+    height: 100% !important;
+}
+
+.landing-container {
+    background-image: url("../Images/Landing-sparkle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.landing-container .logo {
+    /* width: 90%;
+    max-width: 620px; */
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing-container .logo-circle {
+    width: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.landing-container .svg-circle{
+    width:100%;
+}
+
+
+
+.landing-container .circle-text {
+    width:78%;
+    position: absolute;
+    top: 52%;
+    left: 51%;
+    transform: translate(-50%, -60%);
+    cursor: pointer;
+}
+
+
+.landing-container .circle-subtitle {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:66%;
+}
+
+
+.landing-container .logo-bottom {
+    width: 100%;
+    height: 78px;
+    margin-top: -10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1vh;
+}
+
+.landing-container .stats {
+    display: flex;
+}
+
+.landing-container .enter-button {
+    padding: 10px 80px;
+    align-items: center;
+    border-radius: 48px;
+    border: 1px solid #FFE3C0;
+    background: linear-gradient(380deg, #FEBB3B 4.33%, #8A00BE 174.3%);
+    box-shadow: 0px 6px 40px 9px #6E4305;
+    color: #FFF;
+    text-align: center;
+    font-family: "Proto Mono";
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.landing-container .rooms-active,
+.landing-container .funds-entered {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #E34283;
+    text-shadow: 2px 5px 18.4px #C80E9F;
+    font-family: "Proto Mono";
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.landing-container .rooms-active {
+    padding-right: 7px;
+}
+
+.landing-container .funds-entered {
+    padding-left: 7px;
+}
+
+.landing-container .line-inbetween{
+    border-left: 1px solid #434343;
+    height: 25px;
+}
+
+.landing-container .statustext {
+    color: white;
+    margin: 5px 0;
+    font-family: "Proto Mono";
+    line-height: normal;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-right: 11px;
+}
+.landing-container .launch-page,
+.landing-container .social-icons {
+    position: absolute;
+}
+
+.landing-container .launch-page {
+    top: 20px;
+    right: 20px;
+    
+}
+
+.landing-container .social-icons {
+    top: 50%;
+    right: 2px;
+    width: 50px;
+    height: 100px;
+    transform: translateY(-50%);
+}
+
+.landing-container .discord-logo,
+.landing-container .x-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.landing-container .x-logo {
+    margin-top: 10px;
+}
+
+.landing-container .launch-btn {
+    padding: 10px 25px;
+    border-radius: 48px;
+    border: 1px solid #FFE3C0;
+    background: linear-gradient(124deg, #FEBB3B 4.33%, #8A00BE 157.3%);
+    box-shadow: 0px 6px 32px 12px rgba(110, 67, 5, 0.64);
+    color: #FFF;
+    text-align: center;
+    font-family: "Proto Mono";
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .landing-container .launch-page {
+        display: none;
+    }
+
+    .landing-container .logo-circle {
+        width: 95vw;
+    }
+
+    .landing-container .discord-logo,
+    .landing-container .x-logo {
+        width: 25px;
+        height: 25px;
+        margin-right: 0px;
+    }
+
+    .landing-container .x-logo{
+        margin-left: 10px;
+    }
+    .landing-container .social-icons {
+        top: 62px;
+        margin-right: 7px
+    }
+
+    .landing-container .social-icons {
+        width: auto;
+    }
+}
+
+
+@media (max-width: 396px) {
+    .landing-container .enter-button {
+        padding: 10px 50px;
+    }
+
+    .landing-container .rooms-active,
+    .landing-container .funds-entered {
+    font-size: 17px;
+    }
+
+    .landing-container .statustext {
+        font-size: 17px;
+    }
+}
+@media (max-height: 500px) {
+    .landing-container .enter-button {
+        padding: 4px 50px;
+    }
+
+    .landing-container .rooms-active,
+    .landing-container .funds-entered {
+    font-size: 17px;
+    }
+
+    .landing-container .statustext {
+        font-size: 17px;
+    }
+    .landing-container .social-icons {
+        top: 50%;
+        right: 2px;
+        width: 24px;
+        height: 100px;
+        transform: translateY(-50%);
+        margin-right: 10px;
+    }
+    .landing-container .discord-logo,
+    .landing-container .x-logo {
+        width: 25px;
+        height: 25px;
+    }
+    .landing-container .x-logo {
+        margin-left: 0px;
+    }
+
+    .landing-container .launch-btn {
+        padding: 5px 15px;
+        border-radius: 48px;
+        border: 1px solid #FFE3C0;
+        background: linear-gradient(124deg, #FEBB3B 4.33%, #8A00BE 157.3%);
+        box-shadow: 0px 6px 32px 12px rgba(110, 67, 5, 0.64);
+        color: #FFF;
+        text-align: center;
+        font-family: "Proto Mono";
+        font-size: 17px;
+        cursor: pointer;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .landing-container .logo-circle {
+      width: 90vw;
+    }
+    .landing-container .logo {
+        justify-content: center;
+  }
+  .landing-container .logo-bottom{
+    margin-top:0px;
+}
+}
+
+  @media (min-aspect-ratio: 1/1) {
+    .landing-container .logo-circle {
+      width: 75vh;
+    }
+
+  }

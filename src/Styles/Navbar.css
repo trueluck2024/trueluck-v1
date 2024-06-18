@@ -1,0 +1,231 @@
+.no-scroll {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #535353 solid 2px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  box-sizing: border-box;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+  position:sticky;
+  transition: transform 0.3s ease;
+}
+
+.Nav.hidden {
+  transform: translateY(-100%);
+}
+
+.Nav .logo {
+  margin: 0;
+  padding-left: 7px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Nav .logo svg {
+  width: 125px;
+  height: 100%;
+}
+
+.Nav .nav-elements {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 3%;
+}
+
+.Nav .points {
+  cursor: default;
+}
+
+.Nav .points, .Nav .connect-wallet-text {
+  color: white;
+  font-family: 'Proto Mono';
+  font-size: 17px;
+  margin: 0;
+}
+
+.Nav .connect-wallet {
+  border-radius: 12px;
+  border: 1px solid #FFD095;
+  background: linear-gradient(124deg, #FEBB3B 4.33%, #8A00BE 157.3%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px 15px;
+  transition: all 0.5s ease;
+}
+
+.Nav .connect-wallet.extra-margin {
+  margin-top: 245px;
+}
+
+.Nav .profile-icon {
+  width: 35px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.Nav .hamburger {
+  display: none;
+  cursor: pointer;
+  margin-right: 8px;
+  z-index: 10000;
+  width: 27px;
+  height: 19px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 770px) {
+
+  .Nav .profile-icon {
+    margin-right: 0px;
+  }
+
+  .Nav .logo svg {
+    width: 90px;
+    height: 100%;
+  }
+
+  .Nav .nav-elements {
+    display: none;
+  }
+
+  .Nav .hamburger {
+    display: block;
+  }
+
+  .Nav .mobile-menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 9999;
+    animation: slideDown 0.3s ease-in-out;
+    overflow: hidden;
+  }
+
+  .Nav .mobile-menu.closing {
+    animation: slideUp 0.3s ease-in-out;
+  }
+
+  .Nav .mobile-menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+  }
+
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+}
+
+:root {
+  --bar-width: 27px;
+  --bar-height: 3px;
+  --hamburger-gap: 5px;
+  --foreground: white;
+  --background: white;
+  --hamburger-margin: 8px;
+  --animation-timing: 200ms ease-in-out;
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+}
+
+.Nav .hamburger-menu {
+  --x-width: calc(var(--hamburger-height) * 1.41421356237);
+  display: flex;
+  flex-direction: column;
+  gap: var(--hamburger-gap);
+  width: max-content;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.Nav .hamburger-menu:has(input:checked) {
+  --foreground: white;
+  --background: #333;
+}
+
+.Nav .hamburger-menu:has(input:focus-visible)::before,
+.Nav .hamburger-menu:has(input:focus-visible)::after,
+.Nav .hamburger-menu input:focus-visible {
+  border: 1px solid var(--background);
+  box-shadow: 0 0 0 1px var(--foreground);
+}
+
+.Nav .hamburger-menu::before,
+.Nav .hamburger-menu::after,
+.Nav .hamburger-menu input {
+  content: "";
+  width: var(--bar-width);
+  height: var(--bar-height);
+  background-color: var(--foreground);
+  border-radius: 9999px;
+  transform-origin: left center;
+  transition: opacity var(--animation-timing), width var(--animation-timing),
+    rotate var(--animation-timing), translate var(--animation-timing),
+    background-color var(--animation-timing);
+}
+
+.Nav .hamburger-menu input {
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  pointer-events: none;
+}
+
+.Nav .hamburger-menu:has(input:checked)::before {
+  rotate: 45deg;
+  width: var(--x-width);
+  translate: 0 calc(var(--bar-height) / -2);
+}
+
+.Nav .hamburger-menu:has(input:checked)::after {
+  rotate: -45deg;
+  width: var(--x-width);
+  translate: 0 calc(var(--bar-height) / 2);
+}
+
+.Nav .hamburger-menu input:checked {
+  opacity: 0;
+  width: 0;
+}

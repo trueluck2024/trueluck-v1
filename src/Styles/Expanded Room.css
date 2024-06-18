@@ -1,0 +1,385 @@
+.Expanded-Room {
+    width: 1137px;
+    height: 415px;
+    background-image: url("../Images/Expanded-room-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Proto Mono';
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.Expanded-Room .left-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: default;
+}
+
+.Expanded-Room .left-container::after {
+    content: '';
+    position: absolute;
+    right: -80px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 380px;
+    border-right: 2px solid #535353;
+}
+
+.Expanded-Room .title {
+    color: #FEBB3B;
+    font-size: 45px;
+
+}
+
+.Expanded-Room .tickets-container {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.Expanded-Room .tickets-owned-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.Expanded-Room .tickets-owned-container::after {
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 80px;
+    border-right: 2px solid #535353;
+}
+
+
+
+.Expanded-Room .winning-chance-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Expanded-Room .tickets-owned,
+.Expanded-Room .winning-chance {
+    font-size: 20px;
+    text-shadow: 0px 1.5px 1.5px #DE0DB0;
+}
+
+.Expanded-Room .tickets-number,
+.Expanded-Room .winning-percentage {
+    color: #FBF5F5;
+    text-shadow: 0px 1.5px 9.375px #F7A64C;
+    font-family: "Proto Mono";
+    font-size: 45px;
+}
+
+.Expanded-Room .total-prizes {
+    font-size: 25px;
+}
+
+.Expanded-Room .prize-list {
+    max-height: 122px;
+    overflow: hidden;
+}
+
+.Expanded-Room .prize-list:hover {
+
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #F7A64C black;
+
+}
+
+
+.Expanded-Room span {
+    font-size: 35px;
+    text-shadow: 0px 5px 4.04px #DE0DB0;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    margin-right: 10px;
+}
+
+.Expanded-Room .right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Expanded-Room .entry-fee {
+    font-size: 25px;
+    text-shadow: 0px 4px 25px #FFF;
+}
+
+.Expanded-Room .participants {
+    font-size: 20px;
+}
+
+.Expanded-Room .tickets-remaining {
+    font-size: 20px;
+}
+
+.Expanded-Room .buying-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Expanded-Room .counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Expanded-Room .counter-number {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.Expanded-Room .buy-container {
+    width: 170px;
+    height: 60px;
+    border-radius: 14.189px;
+    border: 0.645px solid #FFD095;
+    background: linear-gradient(127deg, #FFF 5.23%, #FFF 195.56%);
+    box-shadow: 0px 2.58px 32.248px 0px #F7A64C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Expanded-Room .buy-text {
+    font-size: 45px;
+    font-weight: bolder;
+    background: linear-gradient(83deg, #E79556 9.44%, #C86379 88.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Proto Mono';
+}
+
+/* WINNER CSS */
+
+.Expanded-Room .winner {
+    text-decoration: underline;
+    font-size: 30px;
+    text-shadow: 0px 4px 25px #FFF;
+    margin-right: 15px;
+}
+
+.Expanded-Room .winner-1 .winner-2 .winner-3 {
+    font-size: 25px;
+    margin-left: 3px;
+    margin-right: 10px;
+
+}
+
+.Expanded-Room .winner-panel {
+    max-height: 138px;
+    overflow: hidden;
+
+}
+
+.Expanded-Room .winner-panel:hover {
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #F7A64C black;
+}
+
+
+.Expanded-Room .winner-panel img {
+    position: relative;
+    top: 10px;
+}
+
+
+.Expanded-Room .claim-container {
+    /* width: 170px; */
+    height: 60px;
+    border-radius: 14.189px;
+    border: 0.645px solid #FFD095;
+    background: linear-gradient(127deg, #FFF 5.23%, #FFF 195.56%);
+    box-shadow: 0px 2.58px 32.248px 0px #F7A64C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Expanded-Room .claim-text {
+    font-size: 40px;
+    background: linear-gradient(83deg, #E79556 9.44%, #C86379 88.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Proto Mono';
+
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: var(--confetti-color);
+    opacity: 0;
+    animation: confetti 3s ease-in-out infinite;
+  }
+  
+  .Expanded-Room .winner-panel:hover .confetti {
+    opacity: 1;
+  }
+
+@keyframes confetti {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) rotate(720deg);
+      opacity: 0;
+    }
+  }
+  
+
+
+@media (max-width:700px) {
+    .Expanded-Room {
+        background-image: url("../Images/Expanded-room-bg-mobile.png");
+        width: 360px;
+        height: 580px;
+        background-size: contain;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .Expanded-Room .title {
+        color: #FEBB3B;
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .Expanded-Room .tickets-container {
+        display: flex;
+        flex-direction: row;
+        gap: 20px
+    }
+
+    .Expanded-Room .tickets-owned-container::after {
+        content: '';
+        position: absolute;
+        right: -10px;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 65px;
+        border-right: 2px solid #535353;
+    }
+
+
+
+    .Expanded-Room .winning-chance-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Expanded-Room .tickets-owned,
+    .Expanded-Room .winning-chance {
+        font-size: 18px;
+        text-shadow: 0px 1.5px 1.5px #DE0DB0;
+    }
+
+    .Expanded-Room .tickets-number,
+    .Expanded-Room .winning-percentage {
+        color: #FBF5F5;
+        text-shadow: 0px 1.5px 9.375px #F7A64C;
+        font-family: "Proto Mono";
+        font-size: 35px;
+    }
+
+    .Expanded-Room .total-prizes {
+        margin: 15px 0px;
+        font-size: 23px;
+    }
+
+    .Expanded-Room span {
+        font-size: 30px;
+        text-shadow: 0px 5px 4.04px #DE0DB0;
+        -webkit-text-stroke-width: 1;
+        -webkit-text-stroke-color: #000;
+    }
+
+    .Expanded-Room .right-container {
+        gap: 10px;
+    }
+
+    .Expanded-Room .entry-fee {
+        font-size: 21px;
+        text-shadow: 0px 4px 25px #FFF;
+        margin: 20px 0px;
+    }
+
+    .Expanded-Room .participants {
+        font-size: 20px;
+    }
+
+    .Expanded-Room .tickets-remaining {
+        font-size: 20px;
+    }
+
+    .Expanded-Room .buying-section {
+        margin-top: 15px;
+    }
+
+    .Expanded-Room .buy-text {
+        font-size: 35px;
+    }
+
+    .Expanded-Room .left-container::after {
+        display: none;
+        content: none;
+    }
+
+    .Expanded-Room .winner {
+        font-size: 20px;
+        margin-top: -22px;
+    }
+    .Expanded-Room .prize-list {
+        max-height: 112px;
+    }
+    
+
+    .Expanded-Room .claim-text {
+      
+        font-size: 30px;
+    }
+    .Expanded-Room .claim-container {
+        margin-top: 2px;
+        height: 48px;
+    }
+    .Expanded-Room .winner-1 .winner-2 .winner-3 {
+        font-size: 15px;
+
+    }
+
+    .Expanded-Room .winner-panel {
+        margin-top: -16px;
+        max-height: 122px;
+    }
+
+    .Expanded-Room .winner-panel img {
+        position: relative;
+        top: 10px;
+        width: 35px;
+    }
+}

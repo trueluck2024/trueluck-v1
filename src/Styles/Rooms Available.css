@@ -1,0 +1,111 @@
+.rooms-available .rooms-available-text{
+    color: #E34283;
+    text-shadow: 2px 5px 18.4px #C80E9F;
+    font-family: "Proto Mono";
+    font-size: 25px;
+    font-style: normal; 
+    margin-left: 30px;
+    margin-top: 15px;
+    cursor: default;
+    pointer-events: none;
+}
+
+.rooms-available .rooms{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.carousel-container {
+  display: block;
+}
+
+.rooms-container {
+  display: none;
+}
+
+.react-multi-carousel-list{
+    position: unset !important;
+  }
+
+  .react-multiple-carousel__arrow{
+    cursor: pointer !important;
+  }
+
+  .react-multiple-carousel__arrow::before {
+    font-size: 40px;
+    color: transparent; 
+    display: block;
+    font-family: revicons;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    background: linear-gradient(124deg, #FEBB3B 4.33%, #8A00BE 157.3%);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+.react-multiple-carousel__arrow{
+  background : transparent;
+  z-index: 10;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: calc(4% + -61px);
+}
+
+.react-multiple-carousel__arrow--left {
+  left: calc(4% + -65px);
+}
+
+
+
+@media(max-width:700px){
+  .react-multiple-carousel__arrow--right {
+    right: 0px;
+  }
+  
+  .react-multiple-carousel__arrow--left {
+    left: -5px;
+  }
+  .react-multiple-carousel__arrow::before {
+    font-size: 30px;
+}
+}
+
+@media (max-width:412px) {
+  .react-multiple-carousel__arrow--right {
+    right: -5px;
+  }
+  
+  .react-multiple-carousel__arrow--left {
+    left: -7px;
+  }
+}
+
+@media only screen and (max-width: 464px) {
+  .carousel-container {
+    display: none;
+  }
+
+  .rooms-available .rooms-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 40px;
+  }
+  .rooms-available .toggle-rooms-button{
+    color: white;
+    font-size: 20px;
+    font-family: "Proto Mono";
+    text-decoration: underline;
+    position: absolute;
+    bottom: 0px;
+    right: 10px; 
+    cursor: pointer;
+  }
+
+  .rooms {
+    flex: 1 1 100%; 
+  }
+}

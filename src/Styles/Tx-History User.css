@@ -1,0 +1,82 @@
+.tx-history-user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    color: #BCBCBC;
+    font-family: "Proto Mono";
+    font-size: 15px;
+    font-style: normal;
+}
+
+.tx-history-user .profile-pic {
+    width: 30px;
+}
+
+.tx-history-user  p {
+    color: #bcbcbc;
+}
+
+
+.tx-history-user  .users p {
+    background: linear-gradient(124deg, #FEBB3B 4.33%, #8A00BE 157.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 5px;
+}
+
+.tx-history-user .transaction-hash {
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tx-history-user .transaction-hash p{
+    margin:0px
+}
+
+.tx-history-user  .transaction-site {
+    text-decoration: underline;
+}
+
+.tx-history-user  .value {
+    width: 200px;
+    text-align: center;
+}
+
+.tx-history-user  .value p {
+    color: #05FF00;
+}
+
+.tx-history-user  .from {
+    width: 200px;
+    text-align: center;
+}
+
+.tx-history-user  .age {
+    width: 200px;
+    text-align: center;
+}
+
+.tx-history-user  .view {
+    width: 100px;
+    text-align: center;
+}
+
+.tx-history-user  .eye {
+    width: 25px;
+}
+
+@media (max-width:700px){
+    .tx-history-user {
+        width:1000px;
+    }
+}
+
+@media (max-width:999px){
+    .tx-history-user {
+        width:1000px;
+    }
+}

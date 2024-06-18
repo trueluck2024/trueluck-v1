@@ -1,0 +1,55 @@
+.Notification-modal {
+    width: 338px;
+    height: 60px;
+    position:fixed;
+    left: -20px; 
+    bottom: 50px;
+    box-sizing: border-box;
+    background: black;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(224, 216, 216);
+    animation: slideInAndOut 4s forwards; 
+    z-index: 10000;
+}
+
+.Notification-modal .notification-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    font-family: "Proto Mono";
+}
+
+.Notification-modal .time-elapse {
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to right, #FEBB3B, #8A00BE);
+    background-size: 200% 100%;
+    animation: progressAnimation 3.5s linear forwards;
+}
+
+@keyframes progressAnimation {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
+@keyframes slideInAndOut {
+    0% {
+        left: -338px;
+    }
+    10% {
+        left: 19px;
+    }
+    90% {
+        left: 19px;
+    }
+    100% {
+        left: -338px;
+    }
+}

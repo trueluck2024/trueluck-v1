@@ -1,0 +1,115 @@
+/* .Dropdown {
+    position: relative;
+
+  }
+
+  .Dropdown .dropdown-container{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: default;
+    position: relative;
+  }
+
+  .Dropdown .dropdown-text {
+    color: white;
+    font-family: 'Proto Mono';
+    font-size: 17px;
+    margin: 0;
+  }
+
+  .Dropdown .eth {
+    width: 30px;
+  }
+
+  .Dropdown .drop {
+    width: 30px;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+  }
+
+  .Dropdown .drop.opendropdown {
+    transform: rotate(540deg);
+  }
+  
+  .menu {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    width:200px;
+  }
+  
+  .menu-title {
+      display: block;
+      width: 200px;
+      height: 40px;
+      padding: 12px;
+      background: #9dc852;
+      text-align: center;
+      color: #ffffff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin:0px;
+  }
+  
+  .menu-dropdown {
+    min-width: 120%;
+    padding: 15px 0;
+    position: absolute;
+    background: black;
+    border: 2px solid #535353;
+    border-top: 0px;
+    z-index: 100;
+    margin:0px;
+    box-sizing: border-box;
+    top:35px;
+    transition:
+      0.5s padding;
+    left:-15px
+  }
+  
+  .menu-dropdown > * {
+    color: white;
+    text-align: center;
+    font-family: "Proto Mono";
+    overflow: hidden;
+    height: 30px;
+    padding: 5px 10px;
+    background: rgba(0,0,0,0);
+    white-space: nowrap;
+    transition: 
+      0.5s height cubic-bezier(.73,.32,.34,1.5),
+      0.5s padding cubic-bezier(.73,.32,.34,1.5),
+      0.5s margin cubic-bezier(.73,.32,.34,1.5),
+      0.5s 0.2s color,
+      0.2s background-color;
+  }
+  
+  .menu-dropdown > *:hover {
+    background: rgba(0,0,0,0.1);
+  }
+  
+  .menu-hidden > .menu-dropdown {
+    padding: 0px 0;
+    background: black;
+    z-index: 99;
+    border: 2px solid #535353;
+    border-top:0px;
+    box-sizing: border-box;
+  }
+  
+  .menu-hidden > .menu-dropdown > * {
+    visibility: hidden;
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    color: rgba(25,25,25,0);
+    transition: 
+      0.5s 0.1s height,
+      0.5s 0.1s padding,
+      0.5s 0.1s margin,
+      0.3s color,
+      0.6s visibility;
+    z-index: 99;
+  } */

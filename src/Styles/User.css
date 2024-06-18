@@ -1,0 +1,80 @@
+.user-component{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 5px 0px;
+}
+
+.user-component .profile-pic{
+    width:30px;
+}
+
+.user-component p{
+    color: #bcbcbc;
+}
+.user-component .users{
+    width:200px;
+    display: flex;
+    align-items: center;
+}
+
+.user-component .users p{
+    background: linear-gradient(124deg, #FEBB3B 4.33%, #8A00BE 157.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 5px;
+}
+.user-component .transaction-hash{
+    width:400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-component .transaction-site{
+    text-decoration: underline;
+}
+
+.user-component .value{
+    width:200px;
+    text-align: center;
+}
+
+.user-component .value p{
+    color: #05FF00;
+}
+
+.user-component .from {
+    width:200px;
+    text-align: center;
+}
+
+.user-component .age {
+    width:200px;
+    text-align: center;
+}
+
+.user-component .view {
+    width:100px;
+    text-align: center;
+}
+
+.user-component .eye {
+    width:25px;
+}
+
+@media (max-width:700px){
+    .user-component{
+        width:1200px;
+    }
+
+}
+
+@media (max-width:1199px){
+    .user-component{
+        width:1200px;
+    }
+
+}

@@ -1,0 +1,87 @@
+.Dropdown{
+    position: relative;
+    margin:5px;
+    border:2px solid #535353;
+    border-radius: 15px;
+    padding: 2px 15px;
+    width:157px;
+}
+.Dropdown .dropdown-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: default;
+    position: relative;
+  }
+
+  .Dropdown .dropdown-text {
+    color: white;
+    font-family: 'Proto Mono';
+    font-size: 17px;
+    margin: 0;
+  }
+
+  .Dropdown .eth {
+    width: 30px;
+  }
+
+  .Dropdown .drop {
+    width: 30px;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+    position:absolute;
+    right:0px;
+  }
+
+  .Dropdown .drop.opendropdown {
+    transform: rotate(540deg);
+  }
+
+  .Dropdown .menu-dropdown {
+    left:0px;
+    padding-left: 0px;
+    position: absolute;
+    font-family: "Proto Mono";
+    z-index: 100;
+    color: white;
+    font-size: 17px;
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #535353;
+    border-radius: 15px;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    transform: scale(0.01);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform-origin: center top;
+    overflow: hidden;
+    margin-top:20px;
+  }
+  .Dropdown .menu-dropdown span{
+    transition: all 0.3s ease;
+  }
+
+  .Dropdown .menu-dropdown div:last-child{
+    margin-bottom:10px
+  }
+
+  .Dropdown .menu-dropdown span:hover{
+    padding-left: 15px;
+    color: #E34283;
+  }
+
+  .Dropdown .menu-dropdown.open {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .Dropdown .option{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    gap:10px;
+    margin-top: 10px;
+  }
