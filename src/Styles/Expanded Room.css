@@ -188,8 +188,8 @@
     margin-right: 15px;
 }
 
-.Expanded-Room .winner-1 .winner-2 .winner-3 {
-    font-size: 25px;
+.Expanded-Room .winner-1,.Expanded-Room .winner-2,.Expanded-Room .winner-3 {
+    font-size: 20px;
     margin-left: 3px;
     margin-right: 10px;
 
