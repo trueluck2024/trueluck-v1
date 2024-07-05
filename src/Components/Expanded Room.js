@@ -22,10 +22,21 @@ function Expanded_Room(props){
         }
       };
 
-    const OnBuyButtonclick = () => {
+      const OnclaimButtonclick = () => {
         const audio = new Audio(CashRegisterAudio);
         audio.play();
         setShowNotification(true)
+        setIsWinner(false)
+        setTimeout(() => {
+            setShowNotification(false);
+        }, 4000);
+      };
+
+      const OnBuyButtonclick = () => {
+        const audio = new Audio(CashRegisterAudio);
+        audio.play();
+        setShowNotification(true)
+        setIsWinner(true)
         setTimeout(() => {
             setShowNotification(false);
         }, 4000);
@@ -99,7 +110,7 @@ function Expanded_Room(props){
                     <div  className='winner-2'>2ND :  <img src={profile}/> CRACKHEAD47  </div>
                     <div  className='winner-3'>3RD :  <img src={profile}/> CRACKHEAD47  </div>
                 </div>
-                <button className='claim-container' onClick={OnBuyButtonclick}>
+                <button className='claim-container' onClick={OnclaimButtonclick}>
                         <p className='claim-text'>CLAIM</p>
                     </button>
                     </>) : (  <>
