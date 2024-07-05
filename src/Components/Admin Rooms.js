@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import '../Styles/Rooms Available.css';
+import '../Styles/Admin Rooms.css';
 import Room from './Room';
 import Notification from './Notification';
 
-function Rooms_Available(props) {
+function Admin_Rooms(props) {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -46,7 +46,7 @@ function Rooms_Available(props) {
   };
 
   return (
-    <div className='rooms-available'>
+    <div className='Admin-rooms'>
       <div className='rooms-available-text'>Rooms Available - 15</div>
       <div className='carousel-container'>
         <Carousel
@@ -56,7 +56,7 @@ function Rooms_Available(props) {
         >
           {[...Array(8)].map((_, index) => (
             <div className='rooms' key={index}>
-              <Room {...props} isLive={true} isEnded={false} isWon={false} isEdit={false} onBuyClick={handleNotification} />
+              <Room {...props} isLive={false} isEnded={false} isWon={false} isEdit={true} onBuyClick={handleNotification} />
             </div>
           ))}
         </Carousel>
@@ -64,7 +64,7 @@ function Rooms_Available(props) {
       <div className='rooms-container'>
         {[...Array(showAllRooms ? 8 : 3)].map((_, index) => (
             <div className='rooms' key={index}>
-              <Room {...props }  isLive={true} isEnded={false} isWon={false} isEdit={false} onBuyClick={handleNotification} />
+              <Room {...props }  isLive={false} isEnded={false} isWon={false} isEdit={true} onBuyClick={handleNotification} />
             </div>
           ))}
           <div onClick={toggleRooms} className='toggle-rooms-button'>
@@ -76,4 +76,4 @@ function Rooms_Available(props) {
   );
 }
 
-export default Rooms_Available;
+export default Admin_Rooms;

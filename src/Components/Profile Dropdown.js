@@ -11,7 +11,7 @@ function Profile_Dropdown({onProfileClick}) {
     const navigate = useNavigate();
 
   return (
-    <div className="Profile-Dropdown" onClick={() => { navigate("/ProfileDashboard"); }} >
+    <div className="Profile-Dropdown" onClick={onProfileClick}>
         <img src={profileicon} alt='profile-icon' className='profile-icon'  />
         <div class="menu-dropdown-wrapper">
             <div className="menu-dropdown">
