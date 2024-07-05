@@ -27,10 +27,10 @@ function App() {
   return (
     <div className="App">
      
-      {/* <div className="particles-background">
+      <div className="particles-background">
         <AnimatedParticles />
-      </div> */}
-       <Router basename="/true-luck">
+      </div>
+       <Router basename="/trueluck-v1">
         <Routes>
           <Route path="/" element={<LandingPage/>} />
           <Route path="/Home" element={<Home disclaimerPopup={disclaimerPopup} hideDisclaimer={hideDisclaimer} />} />
