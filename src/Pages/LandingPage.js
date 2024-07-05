@@ -50,7 +50,8 @@ const LandingPage = () => {
                 </div>
             </div>
             <div className='launch-page'>
-                <button className='launch-btn' onClick={() => navigate("/Home")}>Launch App</button>
+                {/* <button className='launch-btn' onClick={() => navigate("/Home")}>Launch App</button> */}
+                <button className='launch-btn' onClick={() => navigate("/Admin")}>Launch App</button>
             </div>
             <div className='social-icons'>
                 <img className='discord-logo' src={discord} />
