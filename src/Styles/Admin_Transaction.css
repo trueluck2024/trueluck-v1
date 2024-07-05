@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.Transaction-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.Transaction-container .Transaction-content {
+    margin-left: 3%; 
+    margin-top: 30px; 
+}
+
+.Transaction-container .search {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px; 
+    width: 100%;
+ 
+}
+
+.Transaction-container .search label {
+    margin-right: 10px;
+    font-size: 18px;
+    color: aliceblue; 
+    margin-top: 17px
+}
+
+.Transaction-container .search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    flex: 1; 
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.Transaction-container .transaction-headings {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.Transaction-container .transaction-headings div {
+    text-align: center;
+}
+
+.Transaction-container .users {
+    flex: 1;
+}
+
+.Transaction-container .transaction-hash {
+    flex: 2;
+}
+
+.Transaction-container .chain,
+.Transaction-container .amount {
+    flex: 1;
+}
+
+.Transaction-container .footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+    margin-left: 3%;
+}

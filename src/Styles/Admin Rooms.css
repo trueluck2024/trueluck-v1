@@ -1,0 +1,63 @@
+.Admin-rooms .rooms-available-text{
+    color: #E34283;
+    text-shadow: 2px 5px 18.4px #C80E9F;
+    font-family: "Proto Mono";
+    font-size: 25px;
+    font-style: normal; 
+    margin-left: 2%;
+    margin-top: 15px;
+    cursor: default;
+    pointer-events: none;
+    padding: 5px;
+}
+
+.Admin-rooms .rooms{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.Admin-rooms .carousel-container {
+  display: block;
+}
+
+.Admin-rooms .rooms-container {
+  display: none;
+}
+
+.Admin-rooms .react-multi-carousel-list{
+    position: unset !important;
+  }
+
+  .Admin-rooms .react-multiple-carousel__arrow{
+    cursor: pointer !important;
+  }
+
+  .Admin-rooms .react-multiple-carousel__arrow::before {
+    font-size: 40px;
+    color: transparent; 
+    display: block;
+    font-family: revicons;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    background: linear-gradient(124deg, #FEBB3B 4.33%, #8A00BE 157.3%);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+.Admin-rooms .react-multiple-carousel__arrow{
+  background : transparent;
+  z-index: 10;
+}
+
+.Admin-rooms .react-multiple-carousel__arrow--right {
+  /* right: calc(4% + -61px); */
+  display: none;
+}
+
+.Admin-rooms .react-multiple-carousel__arrow--left {
+  /* left: calc(4% + -65px); */
+  display: none;
+}
+

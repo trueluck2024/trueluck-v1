@@ -1,0 +1,12 @@
+.Admin-Rooms{
+    border: solid 2px white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.Admin-Rooms .Admin-Users{
+    max-height: 133px;
+    overflow-y: auto;
+
+}

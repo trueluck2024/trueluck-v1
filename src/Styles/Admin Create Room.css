@@ -1,0 +1,39 @@
+.Admin-create-room form {
+  font-family: Arial, sans-serif;
+  color: white;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.Admin-create-room .form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.Admin-create-room label {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.Admin-create-room input[type="text"],
+.Admin-create-room input[type="number"],
+.Admin-create-room textarea {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+  margin-top: 16px;
+}
+
+.Admin-create-room textarea {
+  height: 100px; 
+  overflow-y: auto; 
+}
+
+.Admin-create-room input[type="checkbox"] {
+  margin-right: 8px;
+}

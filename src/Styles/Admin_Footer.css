@@ -1,0 +1,21 @@
+.Admin-Footer {
+    height: 25px;
+    background-color: #464646;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Admin-Footer select {
+    color: white;
+    background-color: #464646;
+    border: none;
+    margin-right: 80px;    
+}
+
+.Admin-Footer .Value{
+    color: white;
+    margin-right: 100px;
+    font-size: 14px;
+}

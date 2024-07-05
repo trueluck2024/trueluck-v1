@@ -1,0 +1,144 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.Referal-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.Referal-container .Referal-content {
+    margin-left: 3%;
+    margin-top: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* width: 94%;  */
+}
+
+
+.Referal-container .search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.Referal-container .search label {
+    margin-right: 10px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.Referal-container .search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    flex: 1;
+    background-color:black;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5px;
+}
+
+.Referal-container .scroll-div {
+
+    flex: 1;
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Referal-container .transaction-headings {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.Referal-container .transaction-headings div {
+    text-align: center;
+}
+
+.Referal-container .users {
+    flex: 1;
+}
+
+.Referal-container .transaction-hash {
+    flex: 2;
+}
+
+.Referal-container .chain,
+.Referal-container .amount {
+    flex: 1;
+}
+
+.Referal-container .footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+    margin-left: 3%;
+}
+
+
+.Referal-container .ban {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 65%;
+    margin-left: 74px;
+}
+
+.Referal-container .ban label {
+    margin-right: 10px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.Referal-container .ban input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    flex: 1;
+    background-color: black;
+    border: solid 2px white;
+    color: white;
+    border-radius: 5px;
+}
+
+.Referal-container .bottom-div-ban {
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+
+.Referal-container .confirm-btn {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 31px;
+    font-size: 18px;
+    margin-bottom: 18px;
+
+}
+
+.Referal-container .footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+    margin-left: 3%;
+    font-family: Arial, sans-serif;
+}

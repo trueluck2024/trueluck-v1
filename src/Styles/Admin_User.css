@@ -1,0 +1,58 @@
+.Admin-component{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 5px 0px;
+    font-family: Arial, sans-serif;
+}
+
+.Admin-component .profile-pic{
+    width:30px;
+}
+
+.Admin-component p{
+    color: #bcbcbc;
+}
+.Admin-component .users{
+    width:200px;
+    display: flex;
+    align-items: center;
+    margin-left:25px
+}
+
+.Admin-component .users p{
+    background: linear-gradient(124deg, #FEBB3B 4.33%, #8A00BE 157.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 5px;
+}
+.Admin-component .transaction-hash{
+    width:400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.Admin-component .transaction-site{
+    text-decoration: underline;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.Admin-component .transaction-id{
+    margin-top:5px;
+    margin-bottom: 0px;
+}
+
+.Admin-component .chain{
+    width:200px;
+    text-align: center;
+}
+.Admin-component .amount {
+    width:200px;
+    text-align: center;
+}
+

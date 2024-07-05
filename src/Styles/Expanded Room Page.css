@@ -1,4 +1,12 @@
 .Expanded-Room-Page .Expanded-Room-Container{
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.Expanded-Room-Page .Expanded-Room-Share{
+    width:25px;
+    margin-top: 10px;
+    position: absolute;
+    right:10px;
 }

@@ -1,0 +1,27 @@
+.Admin-Navbar {
+    height: 50px;
+    width: 100%;
+}
+
+.Admin-Navbar .topdiv {
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Admin-Navbar .bottomdiv {
+    width: 100%;
+    height: 50%;
+    background-color: #465537;
+}
+
+.Admin-Navbar select {
+    color: white;
+    background-color: black;
+    margin-right: 25px;
+    border: none;
+
+}

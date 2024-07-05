@@ -1,0 +1,33 @@
+.Room-Main-container .footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+    margin-left: 3%; 
+}
+
+.Room-Main-container .Room-content {
+
+    margin-left: 3%; 
+}
+
+.Room-Main-container .create-new-room{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: calc(50% - 100px);
+    margin-top: 10px;
+}
+
+.Room-Main-container .refund-btn{
+    color: white;
+    background-color: green;
+    border: none;
+    /* padding: 10px; */
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: calc(50% - 60px);
+    margin-top: 14px;
+}

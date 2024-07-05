@@ -1,0 +1,46 @@
+.Sidebar {
+    height: 100vh;
+    width: 3%;
+    background-color: #0f0f0f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 10px #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.Sidebar .Icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px; 
+}
+
+.Sidebar .Icons img {
+    width: 30px; 
+    margin: 2px 0;
+    cursor: pointer;
+}
+
+.Sidebar .room-icon {
+    width: 38px; 
+}
+
+.Sidebar .Socialss {
+    margin-top: auto; 
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    position: absolute;
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.Sidebar .Socialss .twitter-icon,
+.Sidebar .Socialss .discord-icon {
+    margin-top: 10px;
+}

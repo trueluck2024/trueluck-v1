@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.dashboard-container {
+    /* display: flex;
+    flex-direction: column; */
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-container .main-content {
+    /* display: flex; */
+    flex: 1;
+    margin-left: 3%; 
+    margin-top: 10px; 
+}
+
+.dashboard-container .Chart {
+    width: 80%;
+    height: 200px;
+    margin-left: 11%;
+    padding: 5px;
+    margin-top: 38px;
+    border: solid 2px white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.dashboard-container .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    flex: 1;
+    padding: 20px;
+}
+
+
+.dashboard-container .footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+    margin-left: 3%; 
+}
+
+
+.dashboard-container .div1, .dashboard-container .div2, .dashboard-container .div3,.dashboard-container .div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+}
+

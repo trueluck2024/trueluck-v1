@@ -1,0 +1,42 @@
+.PL-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-color: #000; 
+    color: white; 
+    font-family: Arial, sans-serif;
+}
+
+.PL-container .PL-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    margin-top:  calc(50px + 5%);
+    margin-left: 47px;
+    font-size :20px
+}
+
+.PL-container .PL-box {
+    flex: 1;
+    margin: 0 10px;
+    border: 2px solid white; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.PL-container .PL-box input {
+    margin-left: 246px;
+}
+
+
+.PL-container .footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+    margin-left: 3%; 
+}
+
+
+

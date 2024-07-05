@@ -1,0 +1,119 @@
+.wallet .wallet-container {
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+  }
+  
+  .wallet h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .wallet .wallet-header,
+  .wallet .wallet-entry {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    padding: 10px 0;
+    align-items: center;
+  }
+  
+  .wallet .wallet-header {
+    border-bottom: 2px solid #555;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .wallet .id{
+    width:200px;
+    text-align: center;
+  }
+  .wallet .address{
+    width:400px;
+    text-align: center;
+  }
+  .wallet .action{
+    width:200px;
+    text-align: center;
+  }
+  .wallet .wallet-entry {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #555;
+  }
+  
+  .wallet button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width:200px;
+  }
+  
+  .wallet button:hover {
+    background-color: #777;
+  }
+
+  .wallet .transfer-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .wallet h2 {
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .wallet .toggle-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .wallet .toggle-buttons button {
+    background-color: #555;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .wallet .toggle-buttons button.active {
+    background-color: #777;
+  }
+  
+  .wallet .block-container {
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    margin-left: 50px;
+  }
+  
+  .wallet .block-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .wallet .block-input label {
+    flex: 1;
+  }
+  
+  .wallet .block-input input {
+    flex: 2;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #555;
+    color: white;
+  }
+  
+  .wallet .block-input button {
+    flex: 1;
+  }

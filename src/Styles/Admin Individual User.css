@@ -1,0 +1,42 @@
+.Admin-Individual-User {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Admin-Individual-User .date{
+    width:200px;
+    text-align: center;
+}
+.Admin-Individual-User .from{
+    width:400px;
+    text-align: center;
+}
+
+.Admin-Individual-User .wallet{
+    width:200px;
+    text-align: center;
+}
+.Admin-Individual-User .active{
+    width:150px;
+    text-align: center;
+}
+.Admin-Individual-User .ended{
+    width:100px;
+    text-align: center;
+}
+.Admin-Individual-User .total{
+    width:200px;
+    text-align: center;
+}
+
+.Admin-Individual-User .age{
+    width:200px;
+    text-align: center;
+}
+
+.Admin-Individual-User .status{
+    width:150px;
+    text-align: center;
+}

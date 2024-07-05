@@ -1,0 +1,51 @@
+.Admin-User-Page{
+    margin-left: 50px;
+}
+.Admin-User-Page .users-container{
+    border: white 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.Admin-User-Page .users-headings{
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+.Admin-User-Page .date{
+    width:200px;
+    text-align: center;
+}
+.Admin-User-Page .from{
+    width:400px;
+    text-align: center;
+}
+
+.Admin-User-Page .wallet{
+    width:200px;
+    text-align: center;
+}
+.Admin-User-Page .active{
+    width:150px;
+    text-align: center;
+}
+.Admin-User-Page .ended{
+    width:100px;
+    text-align: center;
+}
+.Admin-User-Page .total{
+    width:200px;
+    text-align: center;
+}
+
+.Admin-User-Page .age{
+    width:200px;
+    text-align: center;
+}
+
+.Admin-User-Page .status{
+    width:150px;
+    text-align: center;
+}

@@ -1,0 +1,97 @@
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    color: white; 
+    font-family: Arial, sans-serif;
+}
+
+.popup-container .popup-create-edit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 5px 0;
+    margin-left: 136px;
+}
+
+.popup-container .create-btn,.popup-container .edit-btn {
+    background: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 45px;
+}
+
+.popup-container .popup-content {
+    width: 70%; 
+    margin-top: 20px;
+}
+
+.popup-container .popup-message {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.popup-container .popup-message-header {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.popup-container .popup-to, .popup-container .popup-heading, .popup-container .popup-image, .popup-container .popup-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.popup-container .popup-to label,.popup-container .popup-heading label,.popup-container .popup-image label,.popup-container .popup-text label {
+    width: 80px; 
+}
+
+.popup-container .popup-to input,.popup-container .popup-heading input,.popup-container .popup-image input,.popup-container .popup-text input {
+    width: 100%;
+    padding: 10px;
+    background-color: #333; 
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.popup-container .popup-schedule {
+    display: flex;
+}
+.popup-container .popup-schedule input{
+    margin-left: 8px;
+}
+
+
+.popup-container .label-schedule {
+    font-size: 18px;
+}
+
+.popup-container .popup-create-cancel {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.popup-container .popup-create,.popup-container .popup-cancel {
+    background: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.popup-container .footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+    margin-left: 3%; 
+}
