@@ -98,7 +98,7 @@ function Expanded_Room(props){
               <div className='entry-fee-container'>
                 <div className='entry-fee'>Entry fee :</div> 
                 <svg className='usdt' xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 45 45" > <path fill="#26A69A" d="M22.5 41.25c10.355 0 18.75-8.395 18.75-18.75S32.855 3.75 22.5 3.75 3.75 12.145 3.75 22.5s8.395 18.75 18.75 18.75z" ></path> <path fill="#fff" d="M30.938 12.188H14.063v4.687h16.874v-4.688zM22.5 19.688c-4.178 0-11.25.69-11.25 3.28 0 2.591 7.072 3.282 11.25 3.282s11.25-.69 11.25-3.281c0-2.59-7.072-3.282-11.25-3.282zm0 4.687c-5.178 0-9.375-.84-9.375-1.875 0-1.036 4.197-1.875 9.375-1.875s9.375.84 9.375 1.875c0 1.036-4.197 1.875-9.375 1.875z" ></path> <path fill="#fff" d="M22.5 22.5c1.027 0 1.962-.035 2.813-.092v-10.22h-5.625v10.22c.85.057 1.785.092 2.812.092zM24.115 24.345l-.315.01c-.426.012-.858.02-1.3.02a48.85 48.85 0 01-2.813-.085v9.46h5.625v-9.461c-.388.024-.789.042-1.197.056z" ></path> </svg>
-                <div className='entry-fee'>10 usdt/usdc</div>
+                <div className='entry-fee'>10 usdt</div>
               </div>
                 {isWinner ? (  <>
                 <div  className='winner'>WINNERS</div>
